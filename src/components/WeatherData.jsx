@@ -18,7 +18,7 @@ function WeatherData({ weatherData }) {
             {item.time.slice(11) > hour ? (
               <div className="col">
                 <div className="caracteristics-container-title">
-                  <span>Hour: {item.time.slice(11)}</span>
+                  <span>{item.time.slice(11) < '12:00' ? <span>{item.time.slice(11)} a.m</span>:<span>{item.time.slice(11)} p.m</span>}</span>
                   <span>Temp: {item.temp_c} C °</span>
                 </div>
 

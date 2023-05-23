@@ -47,7 +47,7 @@
 .container-weatherData {
   width: 35vw;
   overflow-y: scroll;
-  max-height: 95vh;
+  max-height:40vh;
   background-color: rgba(0, 0, 0, 0.664);
   border-radius: 15px;
   padding: 15px;
